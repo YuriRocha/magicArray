@@ -1,28 +1,4 @@
 function magicArray(){
-  //diff
-  this.diff = function(arr1, arr2){
-    var newArr = [];
-    for(var i = 0; i < arr1.length; i++){
-      for(var j = 0; j < arr2.length; j++){
-        if(arr1[i] == arr2[j]){
-          arr1[i] = null;
-          arr2[j] = null;
-        }
-      }
-    }
-
-    for(var k = 0; k < arr1.length; k++){
-      if(arr1[k] != null){
-        newArr.push(arr1[k]);
-      }
-    }
-    for(var z = 0; z < arr2.length; z++){
-      if(arr2[z] != null){
-        newArr.push(arr2[z]);
-      }
-    }
-    return newArr;
-  }
   //sym
   this.sym = function(args){
     var sum = [];
