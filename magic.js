@@ -1,6 +1,10 @@
 //TESTES
 var magicArray = require('./magicArray.js');
-var result = magicArray.sym([1, 2, 2, 5, 7, 10, 35], [2, 3, 5,1, 10], [7]);
+
+var result = magicArray.findElement([1, 3, 4, 5, 8, 9, 10], function(num) {
+  return num % 2 === 0;
+});
+
 console.log(result);
 //console.log(magicArray);
 //console.log(Object.keys(magicArray).length);
