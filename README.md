@@ -105,9 +105,9 @@ Exemplo:
     var arr = [{ first: "Romeo", last: "Montague" },
               { first: "Mercutio", last: "Capulet" },
               { first: "Tybalt", last: "Capulet" }]
-              
+
     var result = magicArray.getObject(arr, { last: "Capulet" });
-    
+
     //result: [ { first: 'Mercutio', last: 'Capulet' },
     	        { first: 'Tybalt', last: 'Capulet' } ]
 
@@ -135,4 +135,10 @@ Exemplo:
     });
     //result: 4
 
-
+#### <i class="icon-refresh"></i> .findAndRemove()
+Recebe dois argumentos: um array e o elemento que deve ser removido.
+Remove o elemento do array e retorna o array após a remoção.
+Exemplo:
+ 			var myArray = [2,5,10,55];
+ 			magicArray.findAndRemove(myArray, 10);
+			//result: [2,5,55]
