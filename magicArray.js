@@ -220,6 +220,14 @@ function magicArray(){
     var num = arr.filter(func);
     return num[0];
   }
+  //findAndRemove
+  this.findAndRemove = function(arr, element){
+    var index = arr.indexOf(element);
+    if (index > -1) {
+        arr.splice(index, 1);
+    }
+    return arr;
+  }
 
 }
 
