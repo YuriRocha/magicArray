@@ -139,6 +139,7 @@ Exemplo:
 Recebe dois argumentos: um array e o elemento que deve ser removido.
 Remove o elemento do array e retorna o array após a remoção.
 Exemplo:
- 			var myArray = [2,5,10,55];
- 			magicArray.findAndRemove(myArray, 10);
-			//result: [2,5,55]
+
+    var myArray = [2,5,10,55];
+    magicArray.findAndRemove(myArray, 10);
+    //result: [2,5,55]
