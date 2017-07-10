@@ -143,3 +143,20 @@ Exemplo:
     var myArray = [2,5,10,55];
     magicArray.findAndRemove(myArray, 10);
     //result: [2,5,55]
+
+#### <i class="icon-refresh"></i> .sumTraversal()		
+ Recebe dois argumentos: um objeto e uma propriedade numérica. Este método procura todas as ocorrências dessa propriedade em objetos dentro de arrays desse objeto inicial e soma todas as ocorrências. Utilize sempre com propriedades numéricas.
+Exemplo:
+
+#### <i class="icon-refresh"></i> .sumTraversal()		
+ Recebe dois argumentos: um objeto e uma propriedade numérica. Este método procura todas as ocorrências dessa propriedade em objetos dentro de arrays desse objeto inicial e soma todas as ocorrências. Utilize sempre com propriedades numéricas.
+Exemplo:
+
+    const obj = {
+      teste2: [{name:'Crowley', salary: 12}, {name: 'Regardie', salary: 12}],
+      teste3: [{name: 'Paracelso', salary: 10, last: 1}],
+      teste4: [{last: 2, first: 10, salary: 1}]
+    }
+
+    magicArray.sumTraversal(obj, 'salary');
+    //result: 35
