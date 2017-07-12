@@ -10,6 +10,12 @@ Do que se trata?
 
 > **Como usar:**
 
+> **NPM:**
+
+> - npm install magicArray
+
+> **Localmente:**
+
 > - Copie o arquivo magicArray.js para uma pasta dentro do seu projeto.
 > - Use **require('./magicArray.js')** para importar o módulo para o seu código.(Se estiver na pasta raiz do projeto)
 
