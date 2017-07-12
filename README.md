@@ -12,7 +12,7 @@ Do que se trata?
 
 > **NPM:**
 
-> - npm install magicArray
+> - npm install magic-array
 
 > **Localmente:**
 

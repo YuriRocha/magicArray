@@ -1,6 +1,6 @@
 {
   "name": "magic-array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "É um módulo que trata operações não-usuais em arrays. Em construção.",
   "main": "magicArray.js",
   "scripts": {
